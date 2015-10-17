@@ -39,4 +39,9 @@ public class CalculatorTest {
     	assertEquals(6, Calculator.add("//;\n1;2;3"));
     }
 
+    @Test
+    public void testThousandPlus(){
+    	assertEquals(6, Calculator.add("1001,1,2,3"));
+    }
+
 }
